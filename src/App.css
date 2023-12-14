@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  height: auto;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Roboto';
+}
+.app-logo-container {
+  display: flex;
+
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.app-logo {
+  height: 60px;
+  width: 20%;
+  max-width: 250px;
+  min-width: 200px;
+  margin-left: 0px;
+}
+.add-password-container {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 1%;
+  display: flex;
+  height: 50vh;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.add-password-hedaing {
+  color: #f8fafc;
+  font-size: 24px;
+  margin-top: 0px;
+}
+.form-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+}
+.input-logo {
+  height: 20px;
+  width: 20px;
+  margin: 4px;
+  display: flex;
+  justify-self: center;
+}
+.website-input-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+.input-element {
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+  border-left-width: 1px;
+  border-left-color: #64748b;
+  height: 35px;
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+.userlogin-image {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  height: 40px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #0b69ff;
+  border-width: 0px;
+  outline: none;
+  width: 80px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.show-password-heading {
+  font-size: 20px;
+  color: #ffffff;
+}
+.passwords-section {
+  background-color: #5763a5;
+  border-radius: 10px;
+  padding: 1%;
+  height: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.heading-password-count-container {
+  display: flex;
+  align-items: center;
+}
+.passwords-count {
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 12px;
+  border: 2px solid #9ba9eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.passwords-search-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 30%;
+  height: 40px;
+  max-width: 250px;
+  min-width: 200px;
+}
+.passwords-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.check-box-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.check-box {
+  height: 20px;
+  width: 20px;
+}
+.hr {
+  background-color: #7683cb;
+  border-style: none;
+  height: 2px;
+  width: 100%;
+}
+.search-input-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 4px;
+  width: 30%;
+  max-width: 300px;
+}
+.search-input {
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+  border-left-width: 1px;
+  border-left-color: #64748b;
+  height: 35px;
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 3px;
+  width: 100%;
+}
+.ul-el {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+}
+.no-password-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-password-image {
+  width: 50%;
+  height: 50%;
+}
+.label-el {
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.no-passwords {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .bg-container {
+    height: auto;
+  }
+  .add-password-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .form-container {
+    width: 90%;
+  }
+  .userlogin-image {
+    order: -1;
+    width: 90%;
+  }
+  .search-input {
+    width: 20%;
+  }
+  .ul-el {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
